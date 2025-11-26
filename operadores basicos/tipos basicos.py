@@ -27,3 +27,10 @@ conjuntos = {1,2,3} #set (dicionario)
 
 print(lista,lupla,dicionario,conjuntos)
 print(f"tipos:{type(lista)},{type(lupla)},{type(dicionario)},{type(conjuntos)}")
+
+# COMANDO INPUT 
+
+Nome = input("digite seu nome :")
+print(f"ola, {Nome}! bem- vindo ao python ")
+idade= int(input("digite sua idade : "))
+print(f"daqui a 5 anos voce tera, {idade + 5 } anos" )
