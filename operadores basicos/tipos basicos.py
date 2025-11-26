@@ -34,3 +34,6 @@ Nome = input("digite seu nome :")
 print(f"ola, {Nome}! bem- vindo ao python ")
 idade= int(input("digite sua idade : "))
 print(f"daqui a 5 anos voce tera, {idade + 5 } anos" )
+
+altura = float(input("digite sua altura:"))
+print(f"sua altura é de : {altura}, metros  ou a {altura + 100 } centimetros  ")
