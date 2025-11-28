@@ -22,9 +22,16 @@ print(lista_string)
 
 lista_negra = list(range(5))
 print(lista_negra)
-
+# append
 numeros.append(6)
 print(numeros)
-
+# remove 
 numeros.remove(3)
 print(numeros)
+
+#index
+
+letras = ["A","B","C","D","E",]
+
+posicao_D = letras.index("D")
+print(posicao_D)
